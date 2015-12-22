@@ -1,0 +1,14 @@
+[run]
+branch=True
+source=
+    bettertimedelta
+
+[paths]
+source=
+    bettertimedelta
+    .tox/*/lib/python*/site-packages/bettertimedelta
+
+[report]
+exclude_lines =
+    return NotImplemented
+    pytest.main()
